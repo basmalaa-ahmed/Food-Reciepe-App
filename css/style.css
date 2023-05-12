@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:wght@500&family=Poppins:wght@300;400;500;600;800&family=Raleway:ital@1&family=Roboto:wght@500&family=Source+Sans+Pro:ital@1&family=Work+Sans:ital,wght@1,500&display=swap');
+body{
+    text-transform: capitalize;
+    background-color: #a24145;
+}
+h2{
+    color: #f8fafb;
+}
+blockquote{
+    color: #f8fafb;
+}
+.reciepe-btn{
+    color: #f8fafb;
+    text-transform: capitalize;
+}
+.reciepe-btn:hover{
+    color: black;
+}
+.meal-name .btn:hover .reciepe-btn{
+    color: black;
+}
+
+.meals-deatails{
+    background-color: #f8fafb;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem 0;
+    width: 90%;
+    height: 90%;
+    overflow-y: scroll;
+    position: relative;
+    display: none;
+}
+
+.reciepe-category{
+    background-color: #f8fafb;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    display: inline-block;
+    color: #a24145;
+}
+.reciepe_title,.reciepe-instruct{
+    color: #a24145;
+}
+.recipe-close-btn{
+    
+    position: absolute;
+    left: 5px;
+    top: 5px;
+
+}
+i{
+    font-weight: 500;
+    font-size: 24px;
+    color: #a24145;
+}
+.showRecipe{
+    display: block;
+}
+@media screen and (min-width:768px) {
+    .meals-deatails{
+        width: 700px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .meals-deatails{
+        width: 700px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+}
